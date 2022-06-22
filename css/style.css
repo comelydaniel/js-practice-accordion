@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, grey, lightgrey);
+}
+
+.faq-section {
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    background: linear-gradient(to left, grey, lightgrey);
+}
+
+.faq-section h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.faq-section .faq-box {
+    width: 80%;
+    margin: 0 auto;
+    padding: 23px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 2px 2px 4px black;
+}
+
+.faq-section .faq-box h3 {
+    font-size: 28px;
+}
+
+.faq-section .faq-toggle {
+    position: absolute;
+    top: 25px;
+    right: 40px;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+}
+
+.faq-section .faq-box p {
+    margin-top: 20px;
+    width: 70%;
+    font-size: 24px;
+    font-weight: 500;
+    display: none;
+}
+
+.faq-section .faq-box.active {
+    background: #ffff;
+}
+
+.faq-section .faq-box.active p {
+    display: block;
+}
+
+.faq-section .faq-toggle .bi-chevron-up {
+    display: none;
+}
+
+.faq-section .faq-box.active .faq-toggle .bi-chevron-up {
+    display: block;
+}
+
+.faq-section .faq-box.active .faq-toggle .bi-chevron-down {
+    display: none;
+}
+
+
+
+
+
